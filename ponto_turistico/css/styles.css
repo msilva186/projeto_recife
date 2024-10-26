@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+[title] {
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #8c420ac4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+main {
+    padding: 20px;
+}
+img {
+    max-width: 80%;
+    height: auto;
+    padding: 200px;
+    margin: 50;
+   
+}
+
+footer {
+    display: flex; /*Os elementos ficam em linha, um do lado do outro*/
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: center; /* Alinha os itens ao centro */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f8f8f8; /* Cor de fundo */
+  
+}  
+
+footer ul li a {
+    display: flex;
+    background-color: #a38585;
+    width: 0%;
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;;
+    
+} 
